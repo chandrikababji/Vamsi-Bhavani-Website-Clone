@@ -9,7 +9,7 @@ body {
     background: #ffffff;
 }
 
-/* NAVBAR */
+/* my navbar for headings*/
 .navbar {
     height: 72px;
     display: flex;
@@ -21,20 +21,19 @@ body {
     
 }
 
-
-/* LOGO */
+/* logo of vamsi bhavani*/
 .logo {
     height: 38px;
 }
 
-/* CENTER MENU */
+/* menu*/
 .nav-center {
     display: flex;
     gap: 28px;
     margin-left: 100px;
 }
 .nav-center:visited {
-  color: blue; /* This makes visited links blue */
+  color: blue; /* once i visited this it will turn into blue */
 }
 
 
@@ -47,12 +46,9 @@ body {
      border-radius: 9px;         /* pill shape */
      padding: 8px 16px;   
      border: none;
-    transition: 
-        background-color 0.3s, 
-        border-color 0.3s, 
-        box-shadow 0.3s;
-      
+        
 }
+
 .nav-center a:focus {
     color: blue;
     outline: none;
@@ -107,5 +103,5 @@ body {
 
 .nav-left,
 .nav-center {
-    margin-left: 43px;   /* 👈 pushes logo + menu to right */
+    margin-left: 60px;   /* 👈 pushes logo + menu to right */
 }
