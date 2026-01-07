@@ -21,7 +21,6 @@ body {
 }
 
 
-
 /* LOGO */
 .logo {
     height: 38px;
@@ -41,7 +40,7 @@ body {
 .nav-center a {
     text-decoration: none;
     color: #4b4b4b;
-    font-size: 14.6px;
+    font-size: 15.8px;
     font-weight: 500;
     border: 1px solid transparent;
      border-radius: 20px;         /* pill shape */
@@ -51,7 +50,10 @@ body {
         box-shadow 0.3s;
       
 }
-
+.nav-center a:focus {
+    color: blue;
+    outline: none;
+}
 .nav-center a.active{
     color: blue;
 
