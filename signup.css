@@ -14,13 +14,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 40px;   
-    padding-bottom: 40px;
+    padding-top: 10px;   
+    padding-bottom: 10px;
 }
 
 /* Card */
 .auth-card {
-    width: 380px;
+    width: 370px;
     background: white;
     border-radius: 20px;
     padding: 25px 22px;  /* slightly more padding */
