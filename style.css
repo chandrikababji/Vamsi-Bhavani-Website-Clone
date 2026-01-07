@@ -43,7 +43,9 @@ body {
     font-size: 15.8px;
     font-weight: 500;
     border: 1px solid transparent;
-     border-radius: 20px;         /* pill shape */
+     border-radius: 15px;         /* pill shape */
+     padding: 8px 16px;   
+     border: none;
     transition: 
         background-color 0.3s, 
         border-color 0.3s, 
@@ -58,14 +60,18 @@ body {
     color: blue;
 
 }
+/* .nav-center a:hover {
+    background-color: gray;         
+    border-color: #d1d5db;       
+    color: #434141;             
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+} */
 .nav-center a:hover {
-    background-color: gray;         /* gray background on hover */
-    border-color: #d1d5db;       /* light gray border */
-    color: #434141;              /* text stays the same */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.05); /* soft shadow for depth */
-    
    
-    
+    background-color: #f2f2f2;        /* light gray background */
+    border-color: #d1d5db;            /* light gray border */
+    color: #4b4b4b;                   /* text remains visible */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.06);
 }
 /* RIGHT ICONS */
 .nav-right {
