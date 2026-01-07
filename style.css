@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background: #ffffff;
+}
+
+/* NAVBAR */
+.navbar {
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1px 43px;
+    border-bottom: 1px solid #e5e7eb;
+    
+}
+
+
+
+/* LOGO */
+.logo {
+    height: 38px;
+}
+
+/* CENTER MENU */
+.nav-center {
+    display: flex;
+    gap: 28px;
+    margin-left: 40px;
+}
+.nav-center:visited {
+  color: blue; /* This makes visited links blue */
+}
+
+
+.nav-center a {
+    text-decoration: none;
+    color: #4b4b4b;
+    font-size: 10.6px;
+    font-weight: 500;
+    border: 1px solid transparent;
+     border-radius: 20px;         /* pill shape */
+    transition: 
+        background-color 0.3s, 
+        border-color 0.3s, 
+        box-shadow 0.3s;
+      
+}
+
+.nav-center a.active{
+    color: blue;
+
+}
+.nav-center a:hover {
+    background-color: gray;         /* gray background on hover */
+    border-color: #d1d5db;       /* light gray border */
+    color: #434141;              /* text stays the same */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05); /* soft shadow for depth */
+    
+   
+    
+}
+/* RIGHT ICONS */
+.nav-right {
+    display: flex;
+    gap: 14px;
+    margin-left: auto; 
+   align-items: center; 
+    transform: translateX(-30px);
+    right: 20px; 
+}
+
+.icon-circle {
+    width: 38px;
+    height: 38px;
+    background: #f1f5ff;
+    border-radius: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2563eb;
+    text-decoration: none;
+}
+
+.icon-circle.user {
+    background: #2563eb;
+    color: #fff;
+}
+
+.nav-left,
+.nav-center {
+    margin-left: 43px;   /* 👈 pushes logo + menu to right */
+}

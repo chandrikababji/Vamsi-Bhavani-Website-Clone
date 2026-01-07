@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+/* Background overlay */
+.auth-bg {
+    min-height: 100vh;
+    background: rgba(0,0,0,0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Card */
+.auth-card {
+    width: 400px;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 25px 22px;  /* slightly more padding */
+    text-align: center;
+}
+
+/* Logo */
+.auth-logo {
+    height: 46px;
+    margin-bottom: 8px;
+}
+
+/* Headings */
+.auth-card h2 {
+    font-size: 20px;  /* slightly smaller */
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.subtitle {
+    font-size: 12px;  /* slightly smaller */
+    color: #64748b;
+    margin-bottom: 14px;
+}
+
+/* 🔑 SCROLLABLE EXTRA CONTENT ONLY (Close + Terms) */
+.form-scroll {
+    max-height: 100px; /* Only extra content scrolls */
+    overflow-y: auto;
+    padding-right: 6px;
+}
+
+/* Hide scrollbar (Webkit browsers) */
+.form-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+/* Labels */
+label {
+    display: block;
+    text-align: left;
+    font-size: 12px; /* slightly smaller */
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+label span {
+    color: red;
+}
+
+/* Inputs */
+input {
+    width: 100%;
+    padding: 14px 12px; /* taller inputs */
+    border-radius: 10px;
+    border: 1px solid #e2e8f0;
+    font-size: 13px;    /* slightly smaller text */
+    margin-bottom: 20px; /* spacing between fields */
+}
+
+/* Signup button */
+.signup-btn {
+    width: 100%;
+    padding: 14px; /* taller button */
+    background: #1a73e8;
+    color: #ffffff;
+    border: none;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 12px;
+}
+
+/* Close button (scrollable) */
+.close-btn {
+    display: block;
+    width: 100%;
+    padding: 12px;  /* slightly taller */
+    background: #eaf2ff;
+    color: #1a73e8;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+/* Terms */
+.terms {
+    font-size: 11px;  /* slightly smaller */
+    color: #64748b;
+    margin-bottom: 8px;
+}
+
+.terms a {
+    color: #1a73e8;
+    text-decoration: none;
+    font-weight: 500;
+}

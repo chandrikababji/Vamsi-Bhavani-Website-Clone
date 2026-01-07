@@ -1,0 +1,155 @@
+/* ================= RESET ================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background: #ffffff;
+}
+
+/* ================= NAVBAR ================= */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 40px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+/* Left section (Logo + Home) */
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 12px; /* controls distance between logo and Home Page */
+}
+
+/* Logo */
+.logo {
+    width: 42px;
+    height: auto;
+}
+
+/* Center menu */
+.nav-center {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+  
+}
+
+/* Menu links */
+.nav-center a {
+    text-decoration: none;
+    font-size: 15px;   /* reduced font size */
+    font-weight: 500;
+    color: #000;
+}
+
+/* Active link */
+.nav-center a.active {
+    color: #2563eb;
+    font-weight: 600;
+}
+
+/* Right icons */
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+ 
+}
+
+/* Icon circles */
+.icon-circle {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    border: 1px solid #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.icon-circle i {
+    font-size: 14px;
+    color: #111;
+}
+
+/* Hover effect */
+.nav-center a:hover {
+    color: #2563eb;
+}
+
+.icon-circle:hover {
+    background: #f1f5f9;
+}
+
+/* ================= AUTH (Login/Register cards) ================= */
+.auth-bg {
+    min-height: 100vh;
+    background: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth-card {
+    width: 420px;
+    background: #ffffff;
+    border-radius: 24px;
+    padding: 28px;
+    text-align: center;
+}
+
+.auth-logo {
+    height: 52px;
+    margin-bottom: 12px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 6px;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #64748b;
+    margin-bottom: 22px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+input {
+    width: 100%;
+    padding: 12px 14px;
+    border-radius: 10px;
+    border: 1px solid #e2e8f0;
+    margin-bottom: 16px;
+    font-size: 14px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 12px;
+    border: none;
+    background: #2563eb;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1e40af;
+}
