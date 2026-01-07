@@ -43,7 +43,7 @@ body {
     font-size: 15.8px;
     font-weight: 500;
     border: 1px solid transparent;
-     border-radius: 15px;         /* pill shape */
+     border-radius: 9px;         /* pill shape */
      padding: 8px 16px;   
      border: none;
     transition: 
