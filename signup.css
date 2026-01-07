@@ -28,6 +28,7 @@ body {
     max-height: 520px;   /* ↓ reduced height */
     overflow-y: auto;    /* scroll only card */
     font-size: 2px;
+    height: 550px;
 }
 .auth-card::-webkit-scrollbar {
     display: none;
